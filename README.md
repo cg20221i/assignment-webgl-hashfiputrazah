@@ -8,4 +8,5 @@ A T 2 1
 
 Preview
 
-![screenshot hasil](https://user-images.githubusercontent.com/74090466/191171187-8d677353-64aa-42cc-b516-65587649f8c2.png)
+![Screenshot 2022-09-20 130342](https://user-images.githubusercontent.com/74090466/191179381-18d91e24-77db-47fa-bf27-54cfc5f62640.png)
+
