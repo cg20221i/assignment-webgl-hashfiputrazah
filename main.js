@@ -108,25 +108,24 @@ function main() {
     gl.clearColor(0.75, 0.40, 0.30, 1.0);
     gl.clear(gl.COLOR_BUFFER_BIT);
 
-    //A
-    gl.drawArrays(gl.LINE_STRIP, 0, 3);
-    gl.drawArrays(gl.LINE_STRIP, 3, 3);
-    gl.drawArrays(gl.LINE_STRIP, 6, 3);
-    gl.drawArrays(gl.LINE_STRIP, 9, 3);
+//A
+    gl.drawArrays(gl.TRIANGLES, 0, 3);
+    gl.drawArrays(gl.TRIANGLES, 3, 3);
+    gl.drawArrays(gl.TRIANGLES, 6, 3);
+    gl.drawArrays(gl.TRIANGLES, 9, 3);
 
     //T
-    gl.drawArrays(gl.LINE_STRIP, 10, 4);
-    gl.drawArrays(gl.LINE_STRIP, 11, 2);
+    gl.drawArrays(gl.LINE_STRIP , 10, 4);
+    gl.drawArrays(gl.LINE_STRIP , 10, 2);
 
     
     //2
-    gl.drawArrays(gl.LINE_STRIP, 21, 3);
-    gl.drawArrays(gl.LINE_STRIP, 24, 15);
+    gl.drawArrays(gl.LINE_LOOP, 21, 3);
+    gl.drawArrays(gl.LINE_LOOP, 24, 15);
 
     //1
     gl.drawArrays(gl.LINE_STRIP, 50, 2);
     gl.drawArrays(gl.LINE_STRIP, 42, 2);
-
 
     
 }
